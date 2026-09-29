@@ -1,0 +1,44 @@
+/* Examples of an element selector. */
+html{
+    background-color: #F3ECDC;
+}
+
+h1{
+    background-color: #AD7670;
+    color: #F3ECDC;
+    font-size: 18pt;
+    
+}
+
+h2{
+    background-color: #BFD5BE;
+    color: #F3ECDC;
+    font-size: 15pt;
+   }
+    
+/* dot selectors are Class selectors */
+.purple-text{
+    color: rgb(100, 100, 199);
+}
+/* You can add a class to any html element to specify if it needs different formatting. */
+
+/* ID selectors */
+#main{
+    color: #B4D3D9;
+}
+/* can similarly add to an element to specify formatting
+However, where Class selectors can be applied to many elements,
+ID selectors should only be applied to one element per page. */
+
+/* Attribute selectors target elements with a particular attribute assigned.*/
+a{
+    color: #DFA679;
+    text-decoration: dotted #DFA679;
+}
+
+/* Universal Selector selects everything */
+*{
+    color: #35302f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
